@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: PaD Organizer
-      uses: roo7k1d/pad-organizer@v1
+      uses: roo7k1d/pad-organizer@master
       with:
         php-version: '7.3'
         extensions: mbstring, intl, sqlite3
