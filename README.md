@@ -32,6 +32,7 @@ You are not allowed to remove any part of the footer. That includes all of the i
 ## Todo
 - Login & Register to stop others from accessing site
 - Animation to show which entry was added / deleted / edited / copied
+- Add Favicon
 
 ## Contributing
 You can help develop this project by doing some things of the todolist and making a pull request. If you have some even better ideas on how this project can be improved you can also make a pull requrest.
