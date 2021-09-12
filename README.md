@@ -17,7 +17,7 @@
 <p align="center"><a href="https://github.com/roo7k1d/pad-organizer/issues">Report a Bug</a> | <a href="https://github.com/roo7k1d/pad-organizer/issues">Request a New Feature</a> | <a href="https://github.com/roo7k1d/pad-organizer/pulls">Help Develop This Project</a></p>
 <p align="center"><i>Loved the project? Please consider giving a star</i> :)</p>
 <hr>
-I made this people to help people like me with organizing forwarded ports and domains and their respective devices.
+I made this project to help people like me with organizing forwarded ports and domains and their respective devices.
 
 <hr>
 
