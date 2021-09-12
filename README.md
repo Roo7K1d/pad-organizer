@@ -19,13 +19,8 @@
 <hr>
 I made this people to help people like me with organizing forwarded ports and domains and their respective devices.
 
-## Contents
-  - [Github README PROFILE CATEGORY](#github-readme-profile-category)
-  - [List out `Awesome README Profile` Tools](#list-out-awesome-readme-profile-tools)
-  - [List out `Awesome README Profile` Articles](#list-out-awesome-readme-profile-articles)
-  - [Contribute](#contribute)
-
 <hr>
+
 ## Installation Guide
 - Download the ZIP folder
 - Unpack the ZIP
