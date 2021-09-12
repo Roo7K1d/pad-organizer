@@ -1,6 +1,7 @@
 # PaD Organizer
 The port and domain organizer by RootK1d.
 
+![](https://img.shields.io/github/license/roo7k1d/pad-organizer) ![](https://img.shields.io/github/repo-size/roo7k1d/pad-organizer) ![](https://img.shields.io/tokei/lines/github/roo7k1d/pad-organizer) ![](https://img.shields.io/github/v/release/roo7k1d/pad-organizer) ![](https://img.shields.io/github/last-commit/roo7k1d/pad-organizer)
 
 ![Preview](https://i.imgur.com/Y3zVkKP.png)
 
