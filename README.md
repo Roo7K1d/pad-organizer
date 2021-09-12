@@ -36,6 +36,7 @@ I made this people to help people like me with organizing forwarded ports and do
 If you want to see the dashboard in live action you can try it out [here](https://rootk1d.xyz/pad-demo).
 <br>
 <b>LEGAL NOTICE</b>
+<br>
 I do not take over any liability for the content that users post on this website. Every user is responsible for what they are posting. <b>Please do not share any racist / sexist expressions, slurs or links to external content such as pornographic content. Every input is being saved to a database together with the users IP.</b>
 
 <hr>
