@@ -1,7 +1,7 @@
 # PaD Organizer
 The port and domain organizer by RootK1d.
 
-![Preview](https://imgur.com/a/PAcpbCJ)
+![Preview](https://i.imgur.com/Y3zVkKP.png)
 
 If you're like me, you often forget which ports you forwarded in your router for which project and which domain belongs to which device. I made this little website to help me remember which app uses which ports and whether or not I have open ports for new projects left.
 
