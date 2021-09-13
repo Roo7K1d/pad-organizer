@@ -34,14 +34,14 @@ I made this project to help people like me with organizing forwarded ports and d
 - Download the ZIP folder
 - Unpack the ZIP
 - Open CMD in the downloaded folder
-- Execute ```docker build -t pad-organizer:latest```
+- Execute ```docker build -t pad-organizer:main```
 - Wait for everything to build
-- Execute ```docker run -d --name pad-organizer -p 80:80 pad-organizer:latest```
+- Execute ```docker run -d --name pad-organizer -p 80:80 pad-organizer:main```
 <br>
 
 ### 2. Deploying image from Docker Hub
-- Open CMD and execute ```docker pull rootk1d/pad-organizer```
-- Once done start everything with ```docker run -d --name pad-organizer -p 80:80 pad-organizer:latest```
+- Open CMD and execute ```docker pull rootk1d/pad-organizer:main```
+- Once done start everything with ```docker run -d --name pad-organizer -p 80:80 pad-organizer:main```
 
 <hr>
 
