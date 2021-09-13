@@ -21,12 +21,27 @@ I made this project to help people like me with organizing forwarded ports and d
 
 <hr>
 
-## Installation Guide
+# Installation Guide
+## Apache2 Webserver
 - Download the ZIP folder
 - Unpack the ZIP
 - Upload the folder to your webserver and then visit `http://yoursite.com/pad-organizer`
 - You're done!
 - If you don't want that other people can access this site you can do this with a [.htaccess file](https://help.dreamhost.com/hc/en-us/articles/216363187-Password-protecting-your-site-with-an-htaccess-file)
+
+## Docker
+### 1. Building with Dockerfile
+- Download the ZIP folder
+- Unpack the ZIP
+- Open CMD in the downloaded folder
+- Execute ```docker build -t pad-organizer:latest```
+- Wait for everything to build
+- Execute ```docker run -d --name pad-organizer -p 80:80 pad-organizer:latest```
+<br>
+
+### 2. Deploying image from Docker Hub
+- Open CMD and execute ```docker pull rootk1d/pad-organizer```
+- Once done start everything with ```docker run -d --name pad-organizer -p 80:80 pad-organizer:latest```
 
 <hr>
 
