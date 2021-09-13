@@ -14,7 +14,7 @@
 <a href="https://github.com/roo7k1d/pad-organizer/commits"><img src="https://img.shields.io/github/last-commit/roo7k1d/pad-organizer" alt="License Badge"/></a>
 </div>
 <br>
-<p align="center"><a href="https://github.com/roo7k1d/pad-organizer/issues">Report a Bug</a> | <a href="https://github.com/roo7k1d/pad-organizer/issues">Request a New Feature</a> | <a href="https://github.com/roo7k1d/pad-organizer/pulls">Help Develop This Project</a></p>
+<p align="center"><a href="https://github.com/roo7k1d/pad-organizer/issues">Report a Bug</a> | <a href="https://github.com/roo7k1d/pad-organizer/issues">Request a New Feature</a> | <a href="https://github.com/roo7k1d/pad-organizer/pulls">Help Develop This Project</a> | <a href="https://ko-fi.com/RootK1d">Fund Me</a></p>
 <p align="center"><i>Loved the project? Please consider giving a star</i> :)</p>
 <hr>
 I made this project to help people like me with organizing forwarded ports and domains and their respective devices.
@@ -68,6 +68,7 @@ You are not allowed to remove any part of the footer. That includes all of the i
 
 ## Todo (See Issues with tag "help wanted")
 - Login & Register to stop others from accessing site
+- Skeleton loading animation
 - Animation to show which entry was added / deleted / edited / copied
 - Add Favicon
 
