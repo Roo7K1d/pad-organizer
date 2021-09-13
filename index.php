@@ -1,3 +1,9 @@
+<?php
+                                    
+   include("actions/generateCSRFToken.php");
+                                    
+?>
+
 <html lang="en">
    <head>
       <meta charset="utf-8">
@@ -15,12 +21,6 @@
       <link href="css/sb-admin-2.min.css" rel="stylesheet">
       <!-- Custom styles for this page -->
       <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
-      <?php
-                                    
-         include("actions/generateCSRFToken.php");
-                                    
-      ?>
 
    </head>
    <style>
@@ -216,11 +216,11 @@
       <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
       <!-- Page level custom scripts -->
       <script src="js/demo/datatables-demo.js"></script>
-
-      <?php
-                                    
-         include("actions/validateCSRFToken.php");
-                                    
-      ?>
    </body>
 </html>
+
+<?php
+
+   include("actions/validateCSRFToken.php");
+
+?>
