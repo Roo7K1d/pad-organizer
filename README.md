@@ -68,6 +68,7 @@ You are not allowed to remove any part of the footer. That includes all of the i
 
 ## Todo (See Issues with tag "help wanted")
 - Login & Register to stop others from accessing site
+- Skeleton loading animation
 - Animation to show which entry was added / deleted / edited / copied
 - Add Favicon
 
