@@ -20,6 +20,7 @@
          <div class="modal-body">
          <br>
          <form action="actions/editEntry.php" method="post">
+         <input type="hidden" name="csrf_token" value="<?php echo generate_token();?>" />
          <div class="mb-3">
          <label for="inputPort" class="form-label font-weight-bold">Port</label>
          <input type="text" class="form-control" id="inputPort" name="inputPort" placeholder="80" value="' . htmlspecialchars($row["port"]) . '" required>

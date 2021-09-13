@@ -45,6 +45,7 @@
                                        <span class="text">Edit</span>
                                        </a>
                                        <form class="vanilla" action="actions/deleteEntry.php" method="post">
+                                       <input type="hidden" name="csrf_token" value="<?php echo generate_token();?>" />
                                        <button type="submit" class="btn btn-danger btn-sm btn-icon-split" id="id" name="id" value="' . htmlspecialchars($row["id"]) . '">
                                        <span class="icon text-white-50">
                                        <i class="fas fa-trash"></i>
@@ -53,6 +54,7 @@
                                        </button>
                                        </form>
                                        <form class="vanilla" action="actions/copyEntry.php" method="post">
+                                       <input type="hidden" name="csrf_token" value="<?php echo generate_token();?>" />
                                        <button class="btn btn-primary btn-sm btn-icon-split" id="id" name="id" value=' . htmlspecialchars($row["id"]) . '>
                                        <span class="icon text-white-50">
                                        <i class="fas fa-copy"></i>

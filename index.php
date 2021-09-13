@@ -15,6 +15,13 @@
       <link href="css/sb-admin-2.min.css" rel="stylesheet">
       <!-- Custom styles for this page -->
       <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+      <?php
+                                    
+         include("actions/generateCSRFToken.php");
+                                    
+      ?>
+
    </head>
    <style>
 
@@ -120,6 +127,7 @@
                   Please make sure that the entry you want to add isn't already in the list.
                   <br>
                   <form action="actions/addEntry.php" method="post">
+                  <input type="hidden" name="csrf_token" value="<?php echo generate_token();?>" />
                      <div class="mb-3">
                         <label for="inputPort" class="form-label font-weight-bold">Port</label>
                         <input type="text" class="form-control" id="inputPort" name="inputPort" placeholder="80" required>
@@ -208,5 +216,11 @@
       <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
       <!-- Page level custom scripts -->
       <script src="js/demo/datatables-demo.js"></script>
+
+      <?php
+                                    
+         include("actions/validateCSRFToken.php");
+                                    
+      ?>
    </body>
 </html>
